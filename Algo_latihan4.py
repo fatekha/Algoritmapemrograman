@@ -1,4 +1,3 @@
-
 print("--------------------------------------")
 print(" Toko berkah mulia ")
 print("--------------------------------------")
@@ -26,12 +25,12 @@ jumlah5 = beli5 * telur
 
 # nama produk | qty | harga satuan | jumlah
 print("-------------------------------------------------------")
-print("Nama Produk       | Qty   | Harga Satuan   | Jumlah ")
-print("1. Sarimi          =", beli1, "  ", sarimi," ", jumlah1)
-print("2. Minuman Segar   =", beli2, "  ", mingar," ", jumlah2)
-print("3. Gula Pasir      =", beli3, "  ", gusir, " ", jumlah3)
-print("4. Beras           =", beli4, "  ", beras, " ", jumlah4)
-print("5. Telur           =", beli5, "  ", telur, " ", jumlah5)
+print("Nama Produk       | Qty   | Harga Satuan  | Jumlah ")
+print("1. Sarimi          =", beli1, "    ", sarimi, "          ", jumlah1)
+print("2. Minuman Segar   =", beli2, "    ", mingar, "          ", jumlah2)
+print("3. Gula Pasir      =", beli3, "    ", gusir, "          ", jumlah3)
+print("4. Beras           =", beli4, "    ", beras, "          ", jumlah4)
+print("5. Telur           =", beli5, "    ", telur, "          ", jumlah5)
 print("-------------------------------------------------------")
 
 print("Diskon belanja >200 ribu sebesar 10%")
