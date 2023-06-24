@@ -6,7 +6,7 @@ print(tuple_1)
 print(tuple_2)
 print(tuple_3)
 
-# membuat tuple yang bernilai kososng
+# membuat tuple yang bernilai kosong
 empty_tuple = ()
 print("tuple kosong: ",empty_tuple)
 
