@@ -9,28 +9,29 @@ beli3 = int(input("Berapa gula pasir yang ingin dibeli? "))
 beli4 = int(input("Berapa beras yang ingin dibeli? "))
 beli5 = int(input("Berapa telur yang ingin dibeli? "))
 
-# setting variabel harga satuan
-sarimi = int(input("Harga satuan sarimi? "))
-mingar = int(input("Harga satuan minuman segar? "))
-gusir = int(input("Harga satuan gula pasir? "))
-beras = int(input("Harga satuan beras? "))
-telur = int(input("Harga satuan telur? "))
+# setting harga satuan
+harga1 = 5000
+harga2 = 10000
+harga3 = 25000
+harga4 = 12000
+harga5 = 30000
 
-# seting variabel jumlah
-jumlah1 = beli1 * sarimi
-jumlah2 = beli2 * mingar
-jumlah3 = beli3 * gusir
-jumlah4 = beli4 * beras
-jumlah5 = beli5 * telur
+# setting variabel jumlah
+jumlah1 = beli1 * harga1
+jumlah2 = beli2 * harga2
+jumlah3 = beli3 * harga3
+jumlah4 = beli4 * harga4
+jumlah5 = beli5 * harga5
+
 
 # nama produk | qty | harga satuan | jumlah
 print("-------------------------------------------------------")
-print("Nama Produk       | Qty   | Harga Satuan  | Jumlah ")
-print("1. Sarimi          =", beli1, "    ", sarimi, "          ", jumlah1)
-print("2. Minuman Segar   =", beli2, "    ", mingar, "          ", jumlah2)
-print("3. Gula Pasir      =", beli3, "    ", gusir, "          ", jumlah3)
-print("4. Beras           =", beli4, "    ", beras, "          ", jumlah4)
-print("5. Telur           =", beli5, "    ", telur, "          ", jumlah5)
+print("Nama Produk       | Qty   | Harga Satuan   | Jumlah ")
+print("1. Sarimi          =", beli1, "    ", harga1, "           ", jumlah1)
+print("2. Minuman Segar   =", beli2, "    ", harga2, "          ", jumlah2)
+print("3. Gula Pasir      =", beli3, "    ", harga3, "          ", jumlah3)
+print("4. Beras           =", beli4, "    ", harga4, "          ", jumlah4)
+print("5. Telur           =", beli5, "    ", harga5, "          ", jumlah5)
 print("-------------------------------------------------------")
 
 print("Diskon belanja >200 ribu sebesar 10%")
