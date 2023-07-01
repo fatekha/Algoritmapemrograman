@@ -10,20 +10,20 @@ print("----------------------------------------")
 nim = 20122073
 nama = "PUTRI FATEKHA"
 kelas = 2
-identitas = "TI"
-print("nim: %d" % (nim)
-print("nama: %s" % nama)
-print("kelas: %d" % kelas)
-print("prodi: %s" % identitas)
+prodi = "TI"
+print("nim: %d" % (nim))
+print("nama: %s" % (nama))
+print("kelas: %d" % (kelas))
+print("prodi: %s" % (prodi))
 print("----------------------------------------")
 print("          LINGKARAN           ")
 print("----------------------------------------")
-print("Jari-jari lingkaran: %d" % jari)
-print("Nilai phi: %d" % phi)  
-print("Luas lingkaran: %d" % luas)  
-print("keliling lingkaran: %d" % keliling)
+print("Jari-jari lingkaran: %d" % (jari))
+print("Nilai phi: %d" % (phi))
+print("Luas lingkaran: %d" % (luas))
+print("keliling lingkaran: %d" % (keliling))
 
-list =["uniss", "di", "belajar", "pada", "mahasiswa", "pemrograman", "ruang", "lab", "algoritma", "semester", "topik", "data","tipe", "dan", "dengan", "Batang", 2]
+list =["Uniss", "di", "belajar", "pada", "Mahasiswa", "pemrograman", "ruang", "lab", "algoritma", "semester", "topik", "data","tipe", "dan", "dengan", "Batang", 2]
 #foword
 print("----------------------------------------------------")
 print("         Urutan Kata Yang Benar         ")
