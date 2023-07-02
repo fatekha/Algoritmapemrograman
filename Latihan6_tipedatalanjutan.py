@@ -1,20 +1,22 @@
-jari = int(input("Berapa jari-jari lingkaran: "))
+#input identitas 
+NIM = int(input("Masukkan NIM anda: "))
+Nama = str(input("Masukkan Nama anda: "))
+Kelas = str(input("Masukkan Kelas anda: "))
+Prodi = str(input("Masukkan Prodi anda: "))
+#input jari-jari dan phi
+jari = float(input("Berapa jari-jari lingkaran: "))
 phi = float(input("Masukkan nilai phi: "))
-
+#rumus lingkaran
 luas = phi * jari * jari
 keliling = 2*phi*jari
 
 print("----------------------------------------")
 print("      OPERASI ARITMATIKA      ")
 print("----------------------------------------")
-nim = 20122073
-nama = "PUTRI FATEKHA"
-kelas = 2
-prodi = "TI"
-print("nim: %d" % (nim))
-print("nama: %s" % (nama))
-print("kelas: %d" % (kelas))
-print("prodi: %s" % (prodi))
+print("NIM: %d" % (NIM))
+print("Nama: %s" % (Nama))
+print("Kelas: %s" % (Kelas))
+print("Prodi: %s" % (Prodi))
 print("----------------------------------------")
 print("          LINGKARAN           ")
 print("----------------------------------------")
