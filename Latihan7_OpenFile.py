@@ -15,7 +15,7 @@ list_dosen =("Mawar","selasa","Dedi","Lukman")
 list_jatwal =("senin","selasa","rabu","kamis","jumat")
 
 for i in (list_dosen):
-  for k in (list_jadwal):
+  for k in (list_jatwal):
     print(i, " -" ,k)
     
     
